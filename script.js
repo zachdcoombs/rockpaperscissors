@@ -52,7 +52,7 @@ function game(){
     let playerSelection = playerPlay();
 
     // prompt player for selection, force to lower case for comparison to computer play
-    console.log(computerSelection);
+    console.log("Computer played: ", computerSelection);
     console.log(playRound(playerSelection, computerSelection));
   }
 
