@@ -82,7 +82,6 @@ function handleClick(playerSelection) {
   }
 }
 
-<<<<<<< HEAD
 function updateChoices(playerSelection, computerSelection) {
   switch (playerSelection) {
     case 'ROCK':
@@ -94,19 +93,6 @@ function updateChoices(playerSelection, computerSelection) {
     case 'SCISSORS':
       playerSign.textContent = '✌'
       break
-=======
-// game function containing calls to each component function
-// game should run five times inside of the for loop
-function game(){
-  for (let i = 0; i < 5; i++){
-    // assign variable computerSelection to store return value of computerPlay function
-    let computerSelection = computerPlay();
-    let playerSelection = playerPlay();
-
-    // prompt player for selection, force to lower case for comparison to computer play
-    console.log("Computer played: ", computerSelection);
-    console.log(playRound(playerSelection, computerSelection));
->>>>>>> 926e113f44952b9fa756f5bdc5f16696f944c38e
   }
 
   switch (computerSelection) {
